@@ -45,7 +45,7 @@ shader_param/albedo = ExtResource( 1 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0 )
 script = ExtResource( 2 )
 
-[node name="MeshInstance5" type="MeshInstance" parent="."]
+[node name="Floor" type="MeshInstance" parent="."]
 transform = Transform( 10, 0, 0, 0, -4.37114e-07, 1, 0, -10, -4.37114e-08, 0, -0.5, 0 )
 material_override = SubResource( 1 )
 mesh = SubResource( 2 )
@@ -59,12 +59,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.253957, 0, 1.67873 )
 
 [node name="MeshInstance" type="MeshInstance" parent="Grass"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.767383, 0, 1.09024 )
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="MeshInstance2" type="MeshInstance" parent="Grass"]
-transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -0.491881, 0, 0 )
 material_override = SubResource( 4 )
 mesh = SubResource( 5 )
 material/0 = null
@@ -83,136 +77,6 @@ material/0 = null
 
 [node name="MeshInstance4" type="MeshInstance" parent="Grass"]
 transform = Transform( -0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, -0.707107, 1.00004, 0, 0.0469936 )
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="Grass2" type="Spatial" parent="."]
-transform = Transform( 0.838728, 0, 0.544551, 0, 1, 0, -0.544551, 0, 0.838728, -0.392883, 0, 0 )
-
-[node name="MeshInstance" type="MeshInstance" parent="Grass2"]
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="MeshInstance2" type="MeshInstance" parent="Grass2"]
-transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0 )
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="MeshInstance3" type="MeshInstance" parent="Grass2"]
-transform = Transform( -0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, -0.707107, 0, 0, 0 )
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="MeshInstance4" type="MeshInstance" parent="Grass2"]
-transform = Transform( -0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, -0.707107, 0, 0, 0 )
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="Grass3" type="Spatial" parent="."]
-transform = Transform( 0.838728, 0, 0.544551, 0, 1, 0, -0.544551, 0, 0.838728, 0.374681, 0, 0 )
-
-[node name="MeshInstance" type="MeshInstance" parent="Grass3"]
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="MeshInstance2" type="MeshInstance" parent="Grass3"]
-transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0 )
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="MeshInstance3" type="MeshInstance" parent="Grass3"]
-transform = Transform( -0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, -0.707107, 0, 0, 0 )
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="MeshInstance4" type="MeshInstance" parent="Grass3"]
-transform = Transform( -0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, -0.707107, 0, 0, 0 )
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="Grass4" type="Spatial" parent="."]
-transform = Transform( 1.29483, 0, -0.475609, 0, 1.37942, 0, 0.475609, 0, 1.29483, 0.296631, 0, -0.433827 )
-
-[node name="MeshInstance" type="MeshInstance" parent="Grass4"]
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="MeshInstance2" type="MeshInstance" parent="Grass4"]
-transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0 )
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="MeshInstance3" type="MeshInstance" parent="Grass4"]
-transform = Transform( -0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, -0.707107, 0, 0, 0 )
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="MeshInstance4" type="MeshInstance" parent="Grass4"]
-transform = Transform( -0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, -0.707107, 0, 0, 0 )
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="Grass5" type="Spatial" parent="."]
-transform = Transform( 1.02079, 0, -0.374951, 0, 1.08747, 0, 0.374951, 0, 1.02079, -0.243819, 0, -0.433827 )
-
-[node name="MeshInstance" type="MeshInstance" parent="Grass5"]
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="MeshInstance2" type="MeshInstance" parent="Grass5"]
-transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0 )
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="MeshInstance3" type="MeshInstance" parent="Grass5"]
-transform = Transform( -0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, -0.707107, 0, 0, 0 )
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="MeshInstance4" type="MeshInstance" parent="Grass5"]
-transform = Transform( -0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, -0.707107, 0, 0, 0 )
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="Grass6" type="Spatial" parent="."]
-transform = Transform( 0.744125, 0, -0.273328, 0, 0.792736, 0, 0.273328, 0, 0.744125, -0.243819, -0.155055, 0.331077 )
-
-[node name="MeshInstance" type="MeshInstance" parent="Grass6"]
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="MeshInstance2" type="MeshInstance" parent="Grass6"]
-transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0 )
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="MeshInstance3" type="MeshInstance" parent="Grass6"]
-transform = Transform( -0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, -0.707107, 0, 0, 0 )
-material_override = SubResource( 4 )
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="MeshInstance4" type="MeshInstance" parent="Grass6"]
-transform = Transform( -0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, -0.707107, 0, 0, 0 )
 material_override = SubResource( 4 )
 mesh = SubResource( 5 )
 material/0 = null
